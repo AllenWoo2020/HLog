@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1196db</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#fe5f18</color>
+
+    <color name="blueBg">#1196DB</color>
+    <color name="toolbarTextColor">#020202</color>
+    <color name="textPrimaryColor">#020202</color>
+    <color name="color27">#272727</color>
+    <color name="color28">#282828</color>
+    <color name="color47">#474747</color>
+    <color name="color66">#666666</color>
+    <color name="color99">#999999</color>
+    <color name="indicatorColor">#1296DC</color>
+    <color name="qmui_config_color_red">#FA3A3A</color>
+    <color name="color34">#343434</color>
+
+    <color name="black">#000000</color>
+
+    <color name="green">#2ECC52</color>
+    <color name="red">#FF1244</color>
+    <color name="color9A">#9a9a9a</color>
+
+    <color name="colorf8">#f8f8f8</color>
+    <color name="textSecondColor">#9f9f9f</color>
+    <color name="colorLoading">@android:color/holo_orange_dark</color>
+    <color name="divider">#f8f8f8</color>
+    <color name="background">#ffffff</color>
+    <color name="backgroundDark">#f0f0f0</color>
+    <color name="transpant">#00f2f2f2</color>
+    <color name="white">#ffffff</color>
+    <color name="f0">#f0f0f0</color>
+
+    <color name="colorButtonPress">#551196e0</color>
+    <color name="colorButtonNormal">#1196db</color>
+</resources>

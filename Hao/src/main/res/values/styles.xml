@@ -1,0 +1,139 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+<!--        <item name="windowNoTitle">true</item>-->
+    </style>
+
+    <style name="DividerStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+
+    <style name="EditZiliaoTextSecondStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/textSecondColor</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:background">@color/transpant</item>
+    </style>
+
+
+
+    <style name="EditZiliaoTextPrimaryStyle">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textPrimaryColor</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+
+
+    <style name="EditShezhiStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">@dimen/margin</item>
+        <item name="android:paddingRight">@dimen/margin</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="MeItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="MeItemTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="MeItemArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/ic_right_arrow_black</item>
+    </style>
+
+    <style name="LoadingiaDlg" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置背景色 透明-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 设置是否显示背景 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置背景透明度 -->
+        <item name="android:backgroundDimAmount">0</item>
+        <!-- 设置点击空白不消失 -->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 对话框样式 -->
+    <style name="base_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="OrderInfoRightItemTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+
+    <style name="OrderInfoItemLayoutStyle">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="OrderInfoLeftItemTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+    </style>
+
+    <!--对话框弹出消失动画-->
+    <style name="dialog_anim_style">
+        <item name="android:windowEnterAnimation">@anim/dialog_open_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_close_anim</item>
+    </style>
+    <style name="SwitchTheme" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@drawable/switch_text_selector</item>
+    </style>
+</resources>

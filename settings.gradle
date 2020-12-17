@@ -1,0 +1,3 @@
+include ':Hao'
+include ':app'
+rootProject.name = "HLog"
